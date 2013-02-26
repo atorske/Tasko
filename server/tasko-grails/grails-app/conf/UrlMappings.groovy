@@ -7,7 +7,7 @@ class UrlMappings {
 			}
 		}
       "/list/$id?"(controller: "list") {
-         action = [GET:"list"]
+         action = [GET:"list", POST:"save", DELETE:"delete", PUT:"edit"]
       }
       "/card/$id?"(controller: "card") {
          action = [GET:"list", POST:"save", DELETE:"delete", PUT:"edit"]
