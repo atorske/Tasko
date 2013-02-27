@@ -10,6 +10,7 @@ grails.project.source.level = 1.6
 //grails.project.fork = [
 //   run: [maxMemory:1024, minMemory:64, debug:false, maxPerm:256]
 //]
+//This is a new comment from a fork. Testing. -AT
 
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
